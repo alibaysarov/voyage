@@ -1,5 +1,6 @@
 const addOrder = () => {
-	console.log(123);
+	console.log(123); 
+	console.log("hello");
 	const inOrderBtn = document.querySelector(".order-btn");
 	const orderedItemsBtn = document.querySelector(".ordered-items-btn");
 	const orderItemsNumber = orderedItemsBtn.querySelector(".ordered-item-num");
