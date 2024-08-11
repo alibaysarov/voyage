@@ -146,10 +146,30 @@ function App() {
               </div>
             </div>
             <div className="fut-cards mt-[25px] flex rounded-b-lg justify-between">
-              <Card />
-              <Card />
-              <Card />
-              <Card />
+              <Card
+                img="img/CARDS IMG/CHIP.png"
+                name="Чипсы, 50гр"
+                subtitle="Вкус: соль"
+                price={120}
+              />
+              <Card
+                img="img/CARDS IMG/STR.png"
+                name="Клубника, 50гр"
+                subtitle="Кусочками"
+                price={250}
+              />
+              <Card
+                img="img/CARDS IMG/M.png"
+                name="Печеный хумус с бастурмой, "
+                subtitle="Нут, тахини, винный уксус, кумин, паприка, бастурма"
+                price={200}
+              />
+              <Card
+                img="img/CARDS IMG/CR.png"
+                name="Круассаны, "
+                subtitle="Сливочный сыр, копченый лосось, лисонный сок"
+                price={170}
+              />
             </div>
           </div>
         </div>

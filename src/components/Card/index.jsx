@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Card = () => {
+const Card = (props) => {
   const [count, setcount] = useState(0);
   const changedQuantityHandler = () => {
     setcount(count * 2 + 1);
@@ -25,19 +25,19 @@ const Card = () => {
 
   return (
     <>
-      <div className="futura-card rounded-[20px] max-w-[310px] max-h-[420px] bg-gray-50">
-        <img className="rounded-[20px]" src="img/CARDS IMG/CHIP.png" alt="" />
+      <div className="futura-card rounded-[20px] max-w-[310px] min-h-[420px] bg-gray-50">
+        <img className="rounded-[20px]" src={props.img} alt="" />
         <div className="py-[14px] px-[15px]">
           <div className="info flex justify-between items-center text-[#000000;] text-[18px] font-semibold">
-            Чипсы, 50гр
+            {props.name}
             <img className="at" src="img/CARDS IMG/Frame 5695.png" alt="" />
           </div>
           <span className="taste mt-[7px] font-normal text-[14px] text-gray-400">
-            Вкус: соль
+            {props.subtitle}
           </span>
           <div className="order-and-price flex mt-[65px] items-center justify-between">
             <div className="price font-bold text-[22px] text-[#3485FF;]">
-              {count}
+              {props.price} ₽
             </div>
             {showQuantity == false ? (
               <button
