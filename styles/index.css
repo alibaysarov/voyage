@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font-main{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.font-secondary{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.coutrise-logo{
+    width: 20px;
+    height: 16px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+.cities {
+    display: flex;
+    font-size: 16px;
+    gap: 40px;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.under-header__container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.basket{
+    display: flex;
+    gap: 19px;
+    justify-content: end;
+}
+.basket__total-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 0px 5px 0px 10px;
+    font-size:16px;
+    color: #fff;
+    background-color:#FF6B17;
+    border-radius: 50px;
+    max-width: 205px;
+    
+}
+.tottal-price{
+    background-color: #fff;
+    color: #FF6B17;
+    border-radius: 22px;
+    font-size:16px;
+    padding: 2px 7px 2px 7px;
+    align-items: center;
+    gap: 10px;
+   
+}
+.bookmark-number{
+   display: flex;
+   background-color: #FF6B17;
+   font-size: 14px;
+   color: #fff;
+   border-radius: 50px;
+   align-items: center;
+}
+.hero{
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.hero__card{
+    background-color:#B4C9E533;
+    padding: 34px 8px 37px 34px;
+    border-radius: 20px;
+    display: flex;
+    max-width: 530px;
+    transform: translate(780px,127px)
+    
+    
+    
+}
+.Home-YachtMenu{
+color: #0E254B99;
+
+}
+.logo-inf{
+    width: 16;
+    height: 18;
+}
+.at{
+    width: 14px;
+    height: 14px;
+}
+.vv{
+    width: 20px;
+    height: 20px;
+}
+.o{
+    width: 72px;
+    height: 72px;
+}
